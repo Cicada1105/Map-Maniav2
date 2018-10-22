@@ -5,11 +5,11 @@ var northBound, southBound, eastBound, westBound;
 var endOfGame, score, userHint;
 //Declare global object
 var favPlaces = [
-	{content:"Vaughan",coordinates:{lat:43.8372,lng:-79.5083}},
-	{content:"Plainfield",coordinates:{lat:41.6322,lng:-88.2120}},
-	{content:"Austria", coordinates:{lat:47.5162, lng:14.5501}},
-	{content:"China", coordinates:{lat:40.4319, lng: 116.5704}},
-	{content:"Finland", coordinates:{lat:61.9241, lng:25.7482}}
+	{"content":"Vaughan","coordinates":{"lat":43.8372,"lng":-79.5083}},
+	{"content":"Plainfield","coordinates":{"lat":41.6322,"lng":-88.2120}},
+	{"content":"Austria", "coordinates":{"lat":47.5162, "lng":14.5501}},
+	{"content":"China", "coordinates":{"lat":40.4319, "lng": 116.5704}},
+	{"content":"Finland", "coordinates":{"lat":61.9241, "lng":25.7482}}
 ];
 var secretPlace = {content:"Cheat Code to win", coordinates:{lat:-79.46575486609832,lng:-47.213916509006594}};
 var favPlacesDescr = [

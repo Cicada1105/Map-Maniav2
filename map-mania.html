@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<!--
+  Author:  Josh Colvin
+  Class:   Web & Distributed Programming 
+  Project: Map Mania v2
+  Description: Map Mania v2.  A follow up to Map Mania Lite.  I did not 
+  have time for the instructions but I was either going to do a css animation
+  that went from an opacity of 0 to 100% and went from a negative top value
+  to a positive to reinact a "dropping down" effect.  The cheat code is found by
+  zooming in on the island of Antarctica that is inside of Antarctica's gulf.
+  When you zoom in close enough, the name should say Berkner.  Follow up
+  instructions will be provided
+-->
+<head>
+<title>Josh's Map Mania</title>
+
+<meta name="charset" conent="UTF-8">
+<meta name="author" content="Josh Colvin">
+<meta name="keywords" content="map trivia, mapquest, map, mania">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzbR1wxlHljx16RaI33fyLikvq5IjChM4&callback=initGame" async defer></script>
+<script src="map-mania.js"></script>
+<link rel="stylesheet" type="text/css" href="map-mania.css" />
+</head>
+<body>
+<h1>Josh's Popular Tourist Attractions</h1>
+Hint: <input type="textarea" size="80" id="userHint" readonly/><br /><br />
+Score: <input type="text" id="score" readonly/>
+<button id="cheatCode">CHEAT</button>
+<div id="mapCont"></div>
+</body>
+</html>
